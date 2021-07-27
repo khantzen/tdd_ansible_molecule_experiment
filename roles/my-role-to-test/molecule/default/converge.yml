@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include my-role-to-test"
+      include_role:
+        name: "my-role-to-test"
